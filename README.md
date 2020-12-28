@@ -6,7 +6,7 @@ Linux System Call to print details of the given process using its PID along with
     `patch -p1 -R < diff.txt`
 2. Compile and install the kernel.
 3. To run the system call sh_task_info in a c program, use the system call number 440.
-4. To read the details written, write dmesg | tail.
+4. To read the details written, write `dmesg | tail` in linux terminal.
 
 
 ## Assignment Details
