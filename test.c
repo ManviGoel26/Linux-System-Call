@@ -14,8 +14,8 @@ int main(int argc, char** argv)
 	printf("-------Invoking Test For 'sh_task_info' System Call-------\n");
 	int pid = atoi(argv[1]);
 	long int status = syscall(440, pid, argv[2]); 
-	if(status == 0) 
-		printf("System Call 'sh_task_info' executed correctly.\nUse dmesg to check processInfo\n");
+	if (status == 0) 
+		printf("System Call 'sh_task_info' executed correctly.\nUse dmesg|tail to check processInfo\n");
 
 	else 
 	{
