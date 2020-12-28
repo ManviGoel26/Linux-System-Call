@@ -1,5 +1,5 @@
 # Linux-System-Call
-Linux System Call to print details of the given process using its PID along with a tese c program.
+Linux System Call to print details of the given process using its PID along with a test c program.
 
 ## Usage
 1. To patch the diff file to a linux kernel, then enter the kernel directory and run the command:
